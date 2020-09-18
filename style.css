@@ -1,0 +1,86 @@
+
+html {
+  background-color: 	#d5eed2;
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-div {
+  position: relative;
+  border: 1px solid black;
+  height: 600px;
+}
+
+.icons {
+  position: absolute;
+  margin: 1rem;
+  margin-left: 2rem;
+}
+
+#icon-image1 {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+#icon-image2 {
+  height: 46.5px;
+  margin-right: 1rem;
+  padding-bottom: 2px;
+  border-radius: 10%;
+}
+
+.navlist, li{
+  margin-right: 2rem;
+  display: inline-block;
+  float: right;
+}
+
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#my-pic {
+  float: right;
+  height: 300px;
+  width: 250px;
+  border: 1px solid black;
+}
+
+.logo-image {
+  height: 100px;
+  /* width: 100px; */
+  margin-left: 4rem;
+}
+
+.bottom-div {
+  position: relative;
+  border: 1px solid black;
+  height: 450px;
+  padding: 4rem;
+}
+
+.logos-div {
+  position: absolute;
+  width: 90%;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  margin-bottom: 2rem;
+}
+
+.work-example {
+  display: inline-block;
+  margin-right: 4rem;
+  height: 300px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 2%;
+}
+
+footer {
+  text-align: center;
+  padding: 3rem;
+}
