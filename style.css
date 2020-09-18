@@ -7,7 +7,7 @@ html {
 .top-div {
   position: relative;
   border: 1px solid black;
-  height: 600px;
+  height: 1000px;
 }
 
 .icons {
@@ -32,17 +32,28 @@ html {
   margin-right: 2rem;
   display: inline-block;
   float: right;
+  font-size: 1.5rem;
 }
 
 h1 {
+  width: 70%;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 5rem;
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+h2 {
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
+
 #my-pic {
-  float: right;
+  float: left;
   height: 300px;
   width: 250px;
   border: 1px solid black;
@@ -51,13 +62,15 @@ h1 {
 .logo-image {
   height: 100px;
   /* width: 100px; */
-  margin-left: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .bottom-div {
+  text-align: center;
   position: relative;
   border: 1px solid black;
-  height: 450px;
+  height: 650px;
   padding: 4rem;
 }
 
@@ -71,16 +84,41 @@ h1 {
   margin-bottom: 2rem;
 }
 
-.work-example {
+.examples-div {
+  text-align: center;
+}
+
+.work-container {
+  position: relative;
   display: inline-block;
-  margin-right: 4rem;
-  height: 300px;
+  margin: 0 2rem 0 2rem;
+  height: 400px;
   width: 250px;
   border: 1px solid black;
   border-radius: 2%;
 }
 
+.work-example {
+  position: relative;
+  height: 75%;
+}
+
+.source-code-link {
+  position: relative;
+  width: 100%;
+}
+
+.source-code-icon {
+  height: 28px;
+  margin-top: 1rem;
+}
+
+h4 {
+  margin: 1rem;
+}
+
+
 footer {
   text-align: center;
-  padding: 3rem;
+  padding: 1rem;
 }
